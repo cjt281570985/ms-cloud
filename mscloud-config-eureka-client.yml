@@ -8,7 +8,7 @@ server:
 
 spring:
   profiles: dev
-  application::
+  application:
     name: mscloud-config-eureka-client
 
 eureka:
@@ -29,7 +29,7 @@ server:
 
 spring:
   profiles: test
-  application::
+  application:
     name: mscloud-config-eureka-client
 
 eureka:
